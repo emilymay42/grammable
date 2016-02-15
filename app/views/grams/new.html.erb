@@ -2,5 +2,6 @@
 
 <%= simple_form_for @gram, url: new_gram_path do |f| %>
 	<%= f.input :message %>
+	<%= f.input :image %>
 	<%= f.submit "Post!" %>
 <% end %>
